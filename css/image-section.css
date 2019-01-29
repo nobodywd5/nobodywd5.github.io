@@ -1,0 +1,96 @@
+.image-section {
+    flex: 1.4;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative; 
+    border-right: groove 4px #FFC001;
+}
+
+
+.section-img-first {
+    background-image: url(https://i.pinimg.com/736x/d2/73/d6/d273d690319ae2ed4b60305b7b3e743d.jpg);
+    background-size: 55vh;
+}
+
+.section-img-second {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/e/e5/Confessionscrowley.jpg);
+    background-size: 45vh;
+}
+
+.section-img-third {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Liber_AL_Vel_Legis.png/238px-Liber_AL_Vel_Legis.png);
+    background-size: 45vh;
+}
+
+.section-img-fourth {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/8/80/Moonchild.gif);
+    background-size: 48vh;
+}
+
+.section-img-fifth {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/41plv19RyBL._SX384_BO1,204,203,200_.jpg);
+    background-size: 57vh;
+}
+
+
+.gallery-counter {
+    position: absolute;
+    bottom: 0;
+    /* left: -1px; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+
+.gallery-counter div {
+    height: 100px;
+    width: 355px;
+    background-color: #1D1D1D;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    /* margin-left: 100px; */
+}
+
+.gallery-counter div h2 {
+    letter-spacing: 1px;
+    font-size: 70px;
+    margin: 0 50px 0 40px;
+}
+
+.gallery-counter div div {
+    height: 3px;
+    width: 150px;
+    background-color: #B1B1B1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.gallery-counter div div .loader-line {
+    height: 4px;
+    background-color: #FFC001;
+}
+
+#line-first-img {
+    width: 30px;
+}
+
+#line-second-img {
+    width: 60px;
+}
+
+#line-third-img {
+    width: 90px;
+}
+
+#line-fourth-img {
+    width: 120px;
+}
+
+#line-fifth-img {
+    width: 150px;
+}
+
+
+

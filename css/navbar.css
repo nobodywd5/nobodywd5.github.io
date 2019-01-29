@@ -1,0 +1,60 @@
+.nav-wrapper {
+    width: 1200px;
+    height: 90px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+}
+
+
+@media (min-width: 768px) and (max-width: 900px) {
+    .nav-wrapper {
+        width: 900px;
+        background: #ffe400;
+    }
+}
+
+
+.logo {
+    font-size: 12px;
+    background: #ffe400;
+    color: #29648a;
+    width: 230px;
+    height: 100%;
+}
+
+/*-----------*/
+.img-logo {
+    background: url(https://lh5.googleusercontent.com/proxy/qFaShMu9mi3JMm849Kox9lHGugjTBzKJN0mWam89d118ga0IQloa7T6bwoWcJHfLhgaC0wEWqlHyfMt41hYlvQ=w1200-h630-p-k-no-nu);
+    height: 6em;
+    width: 6em;
+    background-size: 6em;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #FFF;
+}
+
+nav a {
+    color: #B1B1B1;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    transition: color 1s ease;
+}
+
+nav a:hover {
+    color: #1D1D1D;
+}
+
+.active {
+    color: #1D1D1D;
+}

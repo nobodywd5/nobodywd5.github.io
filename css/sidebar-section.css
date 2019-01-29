@@ -1,0 +1,85 @@
+.sidebar-section {
+    width: 85px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+}
+
+.hamburger {
+    height: 115px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.hamburger div {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+.ham-line-first {
+ background: url(../img/github-logo-1.svg);
+}
+.ham-line-second {
+    background: url(../img/github-logo-2.svg);
+   }
+   .ham-line-third {
+    background: url(../img/github-logo-3.svg);
+   }
+
+#short {
+    /* width: 25%; */
+    transition: width .7s ease;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    margin-top: 200px;
+}
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 950px) {
+    .social {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+    #gallery-headline {
+        display: none;
+    }
+}
+
+
+
+
+.social a {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    color: #B1B1B1;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    transition: color 1s ease;
+}
+
+.social a:first-child:hover {
+    color: #4267B2;
+}
+
+.social a:last-child:hover {
+    color: #08A0E9;
+}

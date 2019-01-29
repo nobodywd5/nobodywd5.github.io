@@ -1,0 +1,103 @@
+.column-wrapper {
+    display: flex;
+    height: 100vh;
+}
+
+.column-wrapper section {
+    display: flex;
+}
+
+.text-section {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 70px;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 900px) {
+    .text-section {
+        padding-left: 0px;
+    }
+}
+
+
+
+
+
+
+.text-section h1 {
+    text-align: center;
+    font-size: 62px;
+    width: 490px;
+    margin-bottom: 50px;
+}
+
+
+@media (min-width: 768px) and (max-width: 900px) {
+    .text-section h1 {
+        font-size: 30px;
+        width: 353px;
+        margin-bottom: -5px;
+        text-align: left;
+    }
+}
+
+
+
+
+.text-section p {
+    max-width: 400px;
+    line-height: 25px;
+    color: #B1B1B1;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+@media (min-width: 768px) and (max-width: 900px) {
+    .text-section p {
+
+        margin-bottom: 20px;
+    }
+}
+
+
+
+.details-btn {
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.details-btn:hover img {
+    transform: rotate(405deg);
+}
+
+.details-btn img {
+    transition: all .6s ease;
+    height: 15px;
+    margin-left: 10px;
+}
+
+.year-aleister {
+    font-size: 25px;
+    margin-left: 1.6em;
+}
+
+.pdf-link-logo {
+    text-decoration: none;
+    font-size: 30px;
+    color: #000;
+}
+.pdf-link {
+    text-decoration: none;
+    font-size: 32px;
+    color: #FFC001;
+}

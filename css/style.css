@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Futura";
+    font-weight: normal;
+    overflow: hidden;
+}
+
+.flex-center,
+.logo,
+.gallery-nav div,
+.gallery-counter div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    * {
+        overflow: visible;
+    }
+} 
